@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PWA</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+  <header>
+    <h1>MY PWA TEST</h1>
+  </header>
+
+  <main>
+    <div>
+      <h2>test push</h2>
+      <p>
+        <button disabled class="js-push-btn">
+          Enable Push Messaging
+        </button>
+      </p>
+      <section class="subscription-details js-subscription-details is-invisible">
+        <p><a href="https://web-push-codelab.glitch.me/">Push Companion
+        Site</a> </p>
+        <pre><code class="js-subscription-json"></code></pre>
+      </section>
+    </div>
+
+		<div>
+      <h2>test background sync</h2>
+      <button id='submit' class="">sync button</button>
+			<p id='submit_res_from_sync'></p>
+    </div>
+
+    <div>
+      <h2>test cache</h2>
+      <a id="route-to-page-a" href="../pages/pageA">进入a页面</a>
+      <a id="route-to-page-b" href="../pages/pageB">进入b页面</a>
+    </div>
+  </main>
+
+  <script src="scripts/main.js"></script>
+  <script src="scripts/initDB.js"></script>
+
+  <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+</body>
+</html>

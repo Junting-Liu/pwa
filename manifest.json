@@ -1,0 +1,17 @@
+{
+  "name"              : "PWA Website",
+  "short_name"        : "PWA",
+  "description"       : "An example website implementing Progressive Web App technology.",
+  "start_url"         : "/",
+  "display"           : "fullscreen",
+  "orientation"       : "any",
+  "background_color"  : "#2196F3",
+  "theme_color"       : "#2196F3",
+  "icons": [
+		{
+      "src"           : "/images/icon.png",
+      "sizes"         : "72x72",
+      "type"          : "image/png"
+    }
+	]
+}
